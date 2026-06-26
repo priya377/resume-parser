@@ -1,0 +1,56 @@
+{
+  "name": "PEDDINTI         PADMA        PRIYA",
+  "email": "peddintipadmapriya500@gmail.com",
+  "phone": "+91 8897237641",
+  "skills": [
+    "python",
+    "java",
+    "javascript",
+    "html",
+    "css",
+    "sql",
+    "react",
+    "node.js",
+    "docker",
+    "git"
+  ],
+  "education": [
+    {
+      "raw_line": "MLR Institute of Technology College                                2023 \u2013 2027",
+      "degree_hint": null,
+      "year": "2023"
+    },
+    {
+      "raw_line": "B.Tech in Computer Science Engineering | CGPA: 7.68/10.0      Hyderabad, Telangana",
+      "degree_hint": "b.tech",
+      "year": null
+    },
+    {
+      "raw_line": "Sri Chaitanya Junior College                                       2021 \u2013 2023",
+      "degree_hint": null,
+      "year": "2021"
+    },
+    {
+      "raw_line": "Intermediate Board of Education | Percentage: 89%             Hyderabad, Telangana",
+      "degree_hint": "intermediate",
+      "year": null
+    },
+    {
+      "raw_line": "A.S. Vidya Vihar High School                                       2020 \u2013 2021",
+      "degree_hint": null,
+      "year": "2020"
+    }
+  ],
+  "experience": [
+    {
+      "raw_line": "\u2022 Web Development Course Certificate \u2013 IBM",
+      "year_mentioned": null
+    }
+  ],
+  "organizations_mentioned": [
+    "MLR Institute of Technology College",
+    "Sri Chaitanya Junior College",
+    "IBM",
+    "Intermediate Board of Education"
+  ]
+}
