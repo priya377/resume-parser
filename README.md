@@ -69,3 +69,48 @@ Open your browser at `http://127.0.0.1:8000`
 ---
 
 ## 📁 Project Structure
+
+```text
+resume-parser/
+│
+├── main.py                  # FastAPI backend + API endpoints
+├── parse_resume_free.py     # NLP parsing + job matching logic
+├── extract_text.py          # PDF/DOCX text extraction
+├── database.py              # SQLite database models + CRUD
+├── index.html               # Frontend UI
+├── requirements.txt         # Python dependencies
+└── uploads/                 # Uploaded resume files (auto-created)
+```
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/` | Serves the frontend UI |
+| POST | `/upload-resume` | Parse a single resume |
+| POST | `/upload-multiple-resumes` | Rank multiple resumes |
+| GET | `/history` | Get all parsed resumes |
+| DELETE | `/history/{id}` | Delete a resume record |
+
+---
+
+## 🎯 Use Cases
+
+- **HR Teams** — Quickly screen and rank candidates
+- **Job Portals** — Automate resume shortlisting
+- **Recruiters** — Match candidates to job descriptions instantly
+- **Job Seekers** — Check ATS score before applying
+
+---
+
+## 👩‍💻 Developer
+
+**Priya** — Python & AI Developer  
+🔗 [GitHub](https://github.com/priya377)  
+🌐 [Live Project](https://resume-parser-ze3w.onrender.com)
+
+---
+
+⭐ If you found this useful, please give it a star!
